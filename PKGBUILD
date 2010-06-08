@@ -1,4 +1,5 @@
-# Maintainer: Tobias Kieslich <tobias funnychar archlinux.org>
+# Maintainer: Andreas Radke <andyrtr@archlinux.org>
+# Contributor: Tobias Kieslich <tobias funnychar archlinux.org>
 
 pkgname=xfce4-power-manager
 pkgver=0.8.5
