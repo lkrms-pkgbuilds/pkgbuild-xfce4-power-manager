@@ -3,7 +3,7 @@
 
 pkgname=xfce4-power-manager
 pkgver=1.2.0
-pkgrel=3
+pkgrel=4
 pkgdesc="Power manager for Xfce desktop"
 arch=('i686' 'x86_64')
 url="http://www.xfce.org/"
@@ -29,6 +29,7 @@ build() {
   ./configure \
     --prefix=/usr \
     --sysconfdir=/etc \
+    --sbindir=/usr/bin \
     --libexecdir=/usr/lib \
     --localstatedir=/var \
     --disable-network-manager \
