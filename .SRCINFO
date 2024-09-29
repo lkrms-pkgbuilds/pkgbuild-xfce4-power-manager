@@ -1,7 +1,7 @@
 pkgbase = xfce4-power-manager
 	pkgdesc = Power Manager for Xfce
 	pkgver = 4.18.4
-	pkgrel = 2
+	pkgrel = 3
 	url = https://docs.xfce.org/xfce/xfce4-power-manager/start
 	arch = x86_64
 	groups = xfce4
@@ -17,6 +17,8 @@ pkgbase = xfce4-power-manager
 	depends = xfce4-notifyd
 	depends = hicolor-icon-theme
 	source = git+https://gitlab.xfce.org/xfce/xfce4-power-manager.git#tag=xfce4-power-manager-4.18.4
+	source = 0001-reset-screensaver-on-battery-change.patch
 	sha256sums = bbd3b3f584ec8838132fbd79b3815563cf3d478ba3895f7118203d1c7039f0dc
+	sha256sums = 57d2f3a2b3356df51372f3cab89b4165fd3d2cf6e554f033b58adfbf62e484ce
 
 pkgname = xfce4-power-manager
